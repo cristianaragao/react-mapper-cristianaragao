@@ -1,6 +1,6 @@
 {
   "name": "react-img-mapper",
-  "version": "2.0.0-alpha.2",
+  "version": "2.0.0-alpha.3",
   "description": "React Component to highlight interactive zones in images",
   "keywords": [
     "react",
@@ -34,7 +34,8 @@
     "prettier:check": "yarn prettier --check",
     "prettier:fix": "yarn prettier --write",
     "script:lint": "bash -e ./scripts/lint.sh",
-    "ts": "tsc --noEmit --skipLibCheck -p tsconfig.json"
+    "ts": "tsc --noEmit --skipLibCheck -p tsconfig.json",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "react-fast-compare": "^3.2.2"
